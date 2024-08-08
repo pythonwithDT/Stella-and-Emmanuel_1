@@ -26,26 +26,26 @@
 //  };
 
 
-const randomNum = Math.random();
+// const randomNum = Math.random();
 
-let result = ''
+// let result = ''
 
-const guess = 'tails'
+// const guess = 'tails'
 
-if ( randomNum <= 0.5) {
-    result = 'heads'
-} else {
-    result = 'tails'
-}
+// if ( randomNum <= 0.5) {
+//     result = 'heads'
+// } else {
+//     result = 'tails'
+// }
 
-if ( guess === result) {
-    console.log('You win')
-} else {
-    console.log('You lose')
-}
+// if ( guess === result) {
+//     console.log('You win')
+// } else {
+//     console.log('You lose')
+// }
 
 
-console.log(result);
+// console.log(result);
 
 
 
