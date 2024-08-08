@@ -115,12 +115,107 @@
 // let name = 'Emmanuel'
 // let age = 20
 
-let userName = prompt("Please enter your name: ");
-let userAge = prompt('Please enter your age');
+// let userName = prompt("Please enter your name: ");
+// let userAge = prompt('Please enter your age');
 
-About = `My name is ${userName}. I am ${userAge} years old.`
+// About = `My name is ${userName}. I am ${userAge} years old.`
 
-console.log(About);
+// console.log(About);
+
+
+// control flow
+
+// a code that prints a number from 1 to 10
+
+// const stella = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+// for (let i = 0; i <= 10; i++ ) {
+//     console.log(i);   
+// } // run a code a specific number of times
+
+
+// let i = 0; 
+// while(i < 5){
+//     console.log(i);
+//     i++;
+// }  // specific condition 
+
+// //printing an even number from 0 t0 10 
+
+// let even = 0; // 0 = 2 --- 0 = 4 
+// while (even <= 10) {
+//     if (even % 2 === 0) { // a specific condition
+//         console.log(even)
+//     }  
+//     even++
+// }
+
+
+// let i = 5;
+// do {
+//     console.log(i);
+//     i++
+// } while(i < 5) // it executes once b4 chekignt the condition
+
+
+
+
+// // ensure user enters a positive number 
+
+// let userName;
+// do{
+//     userName = prompt('Enter a possitive number');
+// }while(userName <= 0);
+// console.log(`You entered: ${userName}`);
+
+
+// Find the first prime number in an array
+const numbers = [4, 6, 8, 9, 11, 12, 15];
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < 2) continue; // Skip non-prime candidates
+
+    let isPrime = true;
+    for (let j = 2; j < numbers[i]; j++) {
+        if (numbers[i] % j === 0) {
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime) {
+        console.log(`First prime number: ${numbers[i]}`);
+        break;
+    }
+}
+
+// const numbers = [4, 6, 8, 9, 11, 12, 15];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] < 2) continue;
+
+//     let isPrime = true;
+//     for (let j = 2; j < numbers[i]; j++) {
+//         if (numbers[i] % j === 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+
+//     if (isPrime) {
+//         console.log(numbers[i] + " is prime");
+//     } else {
+//         console.log(numbers[i] + " is not prime");
+//     }
+// }
+
+
+
+
+
+
+
+
 
 
 
